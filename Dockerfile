@@ -25,6 +25,7 @@ RUN apk update && apk add --no-cache \
     rsync \
     zlib-dev \
     supervisor \
+    redis \
     nginx
 
 # Install php extensions
